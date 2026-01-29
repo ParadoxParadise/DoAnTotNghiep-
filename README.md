@@ -9,7 +9,7 @@ The system aims to provide a unified dashboard where security administrators can
 
 ## 🏗️ System Architecture
 * **Core Core:** Wazuh Manager (hosted on Linux Server).
-* **Edge Node:** Raspberry Pi 4 (acting as a Wazuh Agent & Biometric Scanner).
+* **Edge Node:** Raspberry Pi 5 (acting as a Wazuh Agent & Biometric Scanner).
 * **Integration:** Custom Python scripts bridging OpenCV data with Wazuh logs.
 
 ## 🚀 Key Features
@@ -20,7 +20,7 @@ The system aims to provide a unified dashboard where security administrators can
 
 ## 🛠️ Tech Stack
 * **SIEM:** Wazuh (Manager/Agent)
-* **Hardware:** Raspberry Pi 4
+* **Hardware:** Raspberry Pi 5
 * **Languages:** Python 3, Bash Scripting
 * **OS:** Ubuntu Server, Raspberry Pi OS
 * **Libraries:** OpenCV, face_recognition, requests
